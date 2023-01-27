@@ -1,0 +1,10 @@
+.vs/
+packages/
+TaurusEdeucation/bin/
+TaurusEdeucation/obj/
+TaurusEdeucation/App_Data/TEMP/
+TaurusEdeucation/App_Data/Models/all.dll.path
+TaurusEdeucation/App_Data/Logs/
+TaurusEdeucation/Deploy/
+TaurusEdeucation/App_Data/TEMP/DistCache/LMW3SVC2ROOT-lastsynced.txt
+TaurusEdeucation/App_Data/TEMP/DistCache/LMW3SVC2ROOT-lastsynced.txt
