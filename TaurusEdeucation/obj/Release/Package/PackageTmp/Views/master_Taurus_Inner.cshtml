@@ -1,0 +1,150 @@
+﻿@using Umbraco.Core.PropertyEditors
+@inherits UmbracoViewPage
+@{
+    Layout = null;
+    var home = (Taurus_Home)Model.Root();
+}
+
+<!doctype html>
+<html class="taurus-html">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Taurus Education</title>
+    <meta name="description" content="">
+    <meta name="author" content="Mythical Design">
+    
+    <link rel="icon" type="image/png" href="/media/ypsda5i2/favicon.png" />
+    
+    <link rel="stylesheet" href="@Url.Content("/css/taurus-design.css")" />
+    <link rel="stylesheet" href="@Url.Content("/css/bootstrap.css")" />
+    <link rel="stylesheet" href="@Url.Content("/css/taurus-availableLectors.css")" />
+    <link rel="stylesheet" href="@Url.Content("/css/taurus-generalClasses.css")" />
+    <link rel="stylesheet" href="@Url.Content("/css/taurus-profile.css")" />
+    <link rel="stylesheet" href="@Url.Content("/css/taurus-FAQ.css")" />
+    <link rel="stylesheet" href="@Url.Content("/css/taurus-newstudent-design.css")" />
+    
+    @RenderSection("Header", required: false)
+    
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.3/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/Scripts/Taurus-app.js"></script>
+    <script src="/Scripts/bootstrap.js"></script>
+</head>
+
+<body class="container-fluid taurus-body">
+    <hr class="taurus-line-top"/>
+    <header class="row taurus-header no-gutters">
+        <div class="col-10 offset-1">
+            <div class="row">
+                <div class="col taurus-title-top">
+                    <a href="/">
+                        <img class="taurus-title-image" src="/media/i4pfdhds/title.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col no-padding">
+                    <nav class="navbar-expand-md navbar-dark taurus-navbar-top">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#taurus-navigation-top"
+                                        aria-controls="taurus-navigation-top" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                            <div style="display: inline-block">
+                                <div class="collapse navbar-collapse" id="taurus-navigation-top">
+                                    <ul class="taurus-navbar-list-top">
+                                        @{
+                                            var page = Umbraco.ContentAtRoot().FirstOrDefault()
+                                                       .ChildrenOfType("taurus_NewLector")
+                                                       .Where(x => (x.Name == "NewLector"))
+                                                       .Where(x => x.IsVisible()).First();
+                                            <li class="taurus-navigation-link-top">
+                                                <a href="@page.Url" class="taurus-nav-link">@page.Value("previewName")</a>
+                                            </li>
+                                                       
+                                            page = Umbraco.ContentAtRoot().FirstOrDefault()
+                                                       .ChildrenOfType("taurus_NewStudent")
+                                                       .Where(x => (x.Name == "NewStudent"))
+                                                       .Where(x => x.IsVisible()).First();
+                                            <li class="taurus-navigation-link-top">
+                                                <a href="@page.Url" class="taurus-nav-link">@page.Value("previewName")</a>
+                                            </li>
+                                           
+                                            page = Umbraco.ContentAtRoot().FirstOrDefault()
+                                                       .ChildrenOfType("taurus_RegistredLector")
+                                                       .Where(x => (x.Name == "RegisteredLector"))
+                                                       .Where(x => x.IsVisible()).First();
+                                            <li class="taurus-navigation-link-top">
+                                                <a href="@page.Url" class="taurus-nav-link">@page.Value("previewName")</a>
+                                            </li>
+                                        }
+                                    </ul>  
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="row no-gutters taurus-main">
+        <div class="col-10 offset-1 taurus-main-container">
+            @RenderBody()    
+        </div>
+    </main>
+
+    <footer class="row taurus-footer no-gutters footer">
+        <div class="col-10 offset-1">
+            <div class="row">
+                <div class="col-md-2 offset-md-2 my-auto taurus-footer-item">
+                    <ul class="taurus-footer-list-FAQconditions">
+                        @{
+                            var page2 = Umbraco.ContentAtRoot().FirstOrDefault()
+                                        .ChildrenOfType("Taurus_TermsConditions")
+                                        .Where(x => x.IsVisible()).First();
+                            <li>
+                                <a class="taurus-footer-item-FAQconditions" href="@page2.Url">Podmínky</a> 
+                            </li>
+                            page2 = Umbraco.ContentAtRoot().FirstOrDefault()
+                                        .ChildrenOfType("Taurus_FAQ")
+                                        .Where(x => x.IsVisible()).First();
+                            <li>
+                                <a class="taurus-footer-item-FAQconditions" href="@page2.Url">FAQ</a> 
+                            </li>
+                        }
+                    </ul>
+                </div>
+                <div class="col-md-2 my-auto taurus-footer-item">
+                    <span class="taurus-footer-mythical">Designed and Developed by Mythical Design s.r.o.
+                        <a href="mailto:info&copy;mythical-design.cz">
+                            <img src="/media/ockb1bvx/icon-email.png" class="taurus-footer-item-icon-email" />    
+                        </a>
+                        <a href="http://www.mythical-design.cz" target="_blank">
+                            <img src="/media/eylgqvs3/icon-web.png" class="taurus-footer-item-icon-web" />
+                        </a>
+                    </span>
+                </div>
+                <div class="col-md-2 my-auto taurus-footer-item">
+                    <span>Taurus Education &copy; 2020</span>
+                </div>
+                <div class="col-md-2 my-auto taurus-footer-item">
+                    <span>Kontaktujte nás</span>
+                    <a href="mailto:info&copy;taurus-education.cz">
+                        <img src="/media/ockb1bvx/icon-email.png" class="taurus-footer-item-icon-email" />
+                    </a>
+                </div>    
+            </div>
+        </div>
+    </footer>
+
+    <script src="/Scripts/Taurus-profile.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+/*
+*** general classes ***
+*/
+
+.hidden {
+    display: none;
+}
+
+.visibility-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 500ms linear;
+}
+
+.visibility-show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .no-padding {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.line {
+    width: 100%;
+    color: #F08080;
+    border-top: 1px solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,16 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Taurus_NewLector>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+	Layout = "master_Taurus_Inner.cshtml";
+}
+
+<div class="taurus-main-title">
+    Nový lektor
+</div>
+<div class="taurus-main-subttitle">
+    Chceš se stát lektorem? Vyplň následující údaje a odešli.
+</div>
+
+<div class="taurus-main-inner-container">
+    @Html.Partial("MemberRegister",new TaurusEdeucation.Models.MemberRegisterModel())    
+</div>

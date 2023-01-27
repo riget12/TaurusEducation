@@ -1,0 +1,17 @@
+﻿@model TaurusEdeucation.Models.ModalDialogModel
+
+<div id="modal-window" class="modal-window">
+    <div class="taurus-modal-content">
+        <span class="modal-close" id="modal-close">&times;</span>
+
+        <div id="modal-content">
+
+        </div>
+
+        @if (Model.ModalDialogButtons == TaurusEdeucation.Models.ModalDialogButtons.Ok)
+        {
+            <input id="mdb_ok" type="button" value="@Model.ButtonText"/>
+        }
+    </div>
+
+</div>

@@ -1,0 +1,24 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+
+
+<table>
+    <tr>
+        <td class="taurus-loggd-labelcontainer">
+            <img id="profile-image" src="" class="hidden" />
+            <div>
+                <span>
+                    Profilový obrázek
+                </span>
+            </div>
+            <img id="thumbnail-profile-image" class="taurus-logged-image-edit" src="" />
+        </td>
+        <tr>
+            <td>
+                <input name="profilePhoto" type="file" id="file" class="taurus-logged-fileinput" />
+                <button id="upload">Odeslat</button>
+            </td>    
+        </tr>
+    </tr>    
+</table>
+
+<button id="submit-profile-image" class="taurus-logged-submit">Potvrd' změny</button>

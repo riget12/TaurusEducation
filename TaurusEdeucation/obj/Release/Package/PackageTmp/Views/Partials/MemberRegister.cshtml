@@ -1,0 +1,183 @@
+﻿@model TaurusEdeucation.Models.MemberRegisterModel
+@{
+    using (Html.BeginUmbracoForm<TaurusEdeucation.Controllers.MemberRegisterSurfaceController>(nameof(TaurusEdeucation.Controllers.MemberRegisterSurfaceController.MemberSubmit), 
+           FormMethod.Post, new { id = "RegisterForm" }))
+    {
+        @Html.AntiForgeryToken()
+        <table class="taurus-newlector-table">
+            <tr class="taurus-table-line">
+                <td class="taurus-newlector-labelcontainer">
+                    @Html.LabelFor(m => m.firstName, "Jméno", new { @class="taurus-newlector-inputlabel" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.firstName, new { @class="taurus-table-input" })
+                    @Html.ValidationMessageFor(m => m.firstName, "", new { @class="field-validation-error-input" })
+                </td>
+            </tr>
+            <tr class="taurus-table-line">
+                <td class="taurus-newlector-labelcontainer">
+                    @Html.LabelFor(m => m.surName, "Příjmení", new { @class="taurus-newlector-inputlabel" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.surName, new { @class="taurus-table-input" })
+                    @Html.ValidationMessageFor(m => m.surName, "", new { @class="field-validation-error-input" })
+                </td>
+            </tr>
+            <tr class="taurus-table-line">
+                <td class="taurus-newlector-labelcontainer">
+                    @Html.LabelFor(m => m.street, "Ulice", new { @class="taurus-newlector-inputlabel" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.street, new { @class="taurus-table-input" })
+                    @Html.ValidationMessageFor(m => m.street, "", new { @class="field-validation-error-input" })
+                </td>
+            </tr>
+            <tr class="taurus-table-line">
+                <td class="taurus-newlector-labelcontainer">
+                    @Html.LabelFor(m => m.city, "Město", new { @class="taurus-newlector-inputlabel" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.city, new { @class="taurus-table-input" })
+                    @Html.ValidationMessageFor(m => m.city, "", new { @class="field-validation-error-input" })
+                </td>
+            </tr>
+            <tr class="taurus-table-line">
+                <td class="taurus-newlector-labelcontainer">
+                    @Html.LabelFor(m => m.phone, "Telefon", new { @class="taurus-newlector-inputlabel" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.phone, new { @class="taurus-table-input" })
+                    @Html.ValidationMessageFor(m => m.phone, "", new { @class="field-validation-error-input" })
+                </td>
+            </tr>
+            <tr class="taurus-table-line">
+                <td class="taurus-newlector-labelcontainer">
+                    @Html.LabelFor(m => m.email, "E-mail", new { @class="taurus-newlector-inputlabel" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.email, new { @class="taurus-table-input" })
+                    @Html.ValidationMessageFor(m => m.email, "", new { @class="field-validation-error-input" })
+                </td>
+            </tr>
+            <tr class="taurus-table-line">
+                <td class="taurus-newlector-labelcontainer">
+                    @Html.LabelFor(m => m.password, "Heslo", new { @class="taurus-newlector-inputlabel" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.password, new { type="password", @class="taurus-table-input" })
+                    @Html.ValidationMessageFor(m => m.password, "", new { @class="field-validation-error-input" })
+                </td>
+            </tr>
+            <tr class="taurus-table-line">
+                <td class="taurus-newlector-labelcontainer">
+                    @Html.LabelFor(m => m.passwordCheck, "Heslo znovu", new { @class="taurus-newlector-inputlabel" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.passwordCheck, new { type="password", @class="taurus-table-input" })
+                    @Html.ValidationMessageFor(m => m.passwordCheck, "", new { @class="field-validation-error-input" })
+                </td>
+            </tr>
+            <tr class="taurus-table-line">
+                <td>
+                    <div class="taurus-newlector-levelscontainer">
+                        <div>
+                            @Html.LabelFor(m => m.levels.elementarySchool, "Základní škola", new { @class="taurus-newlector-checkboxlabel" })
+                            @Html.CheckBoxFor(m => m.levels.elementarySchool, new { @class="taurus-newlector-checkboxes" })
+                        </div>
+                        <div>
+                            @Html.LabelFor(m => m.levels.highSchool, "Střední škola", new { @class="taurus-newlector-checkboxlabel" })
+                            @Html.CheckBoxFor(m => m.levels.highSchool, new { @class="taurus-newlector-checkboxes" })
+                        </div>
+                        <div>
+                            @Html.LabelFor(m => m.levels.college, "Vysoká škola", new { @class="taurus-newlector-checkboxlabel" })
+                            @Html.CheckBoxFor(m => m.levels.college, new { @class="taurus-newlector-checkboxes" })
+                        </div>
+                        <div class="taurus-newlector-checkboxesvalidation-container">   
+                            @Html.ValidationMessageFor(m => m.levels, "", new { @class="field-validation-error-checkbox" })
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="taurus-newlector-checkboxes-container-xs">
+                        @Html.CheckBoxFor(m => m.levels.elementarySchool, new { @class="taurus-newlector-checkboxes" })<br />
+                        @Html.CheckBoxFor(m => m.levels.highSchool, new { @class="taurus-newlector-checkboxes" })<br />
+                        @Html.CheckBoxFor(m => m.levels.college, new { @class="taurus-newlector-checkboxes" })
+                    </div>
+                    <div class="taurus-newlector-checkboxesvalidation-container-xs">   
+                        @Html.ValidationMessageFor(m => m.levels, "", new { @class="field-validation-error-checkbox" })
+                    </div>
+                </td>
+            </tr>
+            <tr class="taurus-table-line">
+                <td class="taurus-newlector-labelcontainer-top">
+                    @Html.LabelFor(m => m.lessons, "Předměty") 
+                </td>
+                <td>
+                    <div id="lessons">
+                        @Html.DropDownListFor(m => Model.lessons[0], Model.lessonsList.list, new { name = "lesson", id = 1, changed = false, 
+                                                                                              onchange = "NextLesson(this)", style = "visibility: visible",
+                                                                                              @class="taurus-newlector-dropdown" })
+                        @for (int i = 1; i < 10; i++){
+                            @Html.DropDownListFor(m => Model.lessons[i], Model.lessonsList.list, new { name = "lesson", id = i+1, changed = false, 
+                                                                                                  onchange = "NextLesson(this)", style = "display: none",
+                                                                                                  @class="taurus-newlector-dropdown" })
+                        }
+                    </div>
+                    <div>
+                        @Html.ValidationMessageFor(m => m.lessons, "", new { @class="field-validation-error-input" })
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <div class="taurus-newlector-conditions">
+            Souhlasím se <span class="taurus-newlector-conditions-link" onclick="viewConditions()">Smluvními podmínkami</span>
+            @Html.CheckBoxFor(m => m.agreedToTerms)
+            @Html.ValidationMessageFor(m => m.agreedToTerms)
+        </div>
+        
+        <input class="taurus-newlector-submit" type="submit" value="Registruj"/>
+  
+    }
+    
+    
+    var tempValueObject = TempData["RegistrationStatus"];
+    
+    if (tempValueObject != null)
+    {    
+        <div class="field-validation-error taurus-newlector-registrationstatus">
+            @tempValueObject
+        </div>
+    }
+}
+
+<div id="myModal" class="taurus-newlector-modal">
+    <div class="taurus-newlector-modal-content">
+        <span class="close" onclick="closeModal()" id="closemyModal">&times;</span>
+            <div class="taurus-newlector-conditions-container">
+                <div id="conditions">
+                    
+                </div>
+
+                <button type="button" class="taurus-button-downloadconditions" onclick="downloadConditions()">Stáhnout jako PDF</button>
+            </div>
+    </div>
+</div>
+
+<script src="/scripts/Taurus-modal.js"></script>
+<script>
+    checkLessons()
+</script>
+@{
+    if (ViewBag.LectorId != null)
+    {
+        <input type="text" value="@ViewBag.LectorId" id="taurus-newLectorId" class="taurus-hidden">
+        
+        @Html.Partial("~/Views/Partials/ModalMap.cshtml");
+        @Html.Partial("/Views/Partials/ModalMessage.cshtml");
+        
+        <script>
+            openMap();
+        </script>
+    }
+}

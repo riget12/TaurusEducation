@@ -1,0 +1,9 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Taurus_Login>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+	Layout = "master_Taurus_Inner.cshtml";
+}
+
+<div class="taurus-login-container">
+    @Html.Action("MemberLogin", "MemberLoginSurface")    
+</div>

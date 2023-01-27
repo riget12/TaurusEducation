@@ -1,0 +1,49 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Taurus_NewStudent>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+	Layout = "master_Taurus_Inner.cshtml";
+}
+
+<script src="/Scripts/Taurus-modal.js"></script>
+
+<div class="taurus-main-title">
+    Nový student
+</div>
+
+<div class="taurus-mapClear-container">
+    @Html.Partial("MapClear")    
+</div>
+<div class="taurus-mapClear-alternative">
+    <select onchange="selectArea(this)">
+        <option value="praha">Kraj Praha</option>
+        <option value="stredocesky">Středočeský kraj</option>
+        <option value="jihocesky">Jihočeský kraj</option>
+        <option value="plzensky">Plzeńský kraj</option>
+        <option value="karlovarsky">Karlovarský kraj</option>
+        <option value="ustecky">Ústecký kraj</option>
+        <option value="liberecky">Liberecký kraj</option>
+        <option value="kralovehradecky">Kralovehradecký kraj</option>
+        <option value="pardubicky">Pardubický kraj</option>
+        <option value="vysocina">Kraj Vysočina</option>
+        <option value="jihomoravsky">Jihomoravský kraj</option>
+        <option value="olomoucky">Olomoucký kraj</option>
+        <option value="moravskoslezsky">Moravskoslezský kraj</option>
+        <option value="zlinsky">Zlínský kraj</option>
+    </select>
+</div>
+
+
+<div id="Taurus-StudentForm" class="taurus-hidden">
+    <div class="taurus-newstudent-subtitle">
+        Vyplň své kontaktní údaje a najdi lektory
+    </div>
+    <div class="taurus-newstudent-inner-container">
+        <div>
+            @Html.Partial("StudentRegister",new TaurusEdeucation.Models.StudentRegisterModel())
+        </div>
+        <div id="taurus-availableLectors-title" class="taurus-availableLectors-title visibility-hidden">Dostupní lektoři ve vybrané oblasti</div>
+        <div id="taurus-availableLectors-container" class="taurus-availableLectors-container"></div>
+    </div>
+</div>
+
+@Html.Partial("ModalInput")

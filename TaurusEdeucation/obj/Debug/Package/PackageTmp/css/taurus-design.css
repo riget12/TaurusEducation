@@ -1,0 +1,1160 @@
+html {
+    height: 100%;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+.taurus-html {
+    background-color: #130606;
+    background-image: url("../media/hhgfwhkt/predmety_nahore.png"), url("../media/14shh4ll/polygony.png"), url("../media/21tkdihg/polygony_dole.png"), url("../media/wmcgzomw/vlnky_dole.png");
+    background-repeat: no-repeat;
+    background-position: top left, 72% 55%, bottom right, bottom left;
+    background-size: 300px, 90px, 90px;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.taurus-body {
+    background: none !important;
+    padding: 0 !important;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    /*display: grid;
+    grid-template-rows: 1fr auto;*/
+}
+
+.header-main-wrapper {
+    flex: 1 0 auto;
+}
+
+.message-container {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    transition: visibility 0s, opacity 500ms linear;
+    z-index:1000;
+}
+
+.message {
+    width: 90%;
+    display: block;
+    margin: 5px auto;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.b-green {
+    background: rgb(50,205,50);
+}
+
+.b-red {
+    background: red;
+}
+/*
+*** menu ***
+*/
+
+.taurus-navigation-link {
+    background-image: url("../media/mttp0rjv/menu-tlacitko1.png");
+    background-size: 180px;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 0;
+}
+
+.taurus-navigation-link:active {
+    background-image: url("../media/3i1lzoxv/menu-tlacitko1-hover.png");
+    background-size: 180px;
+}
+    
+.taurus-navigation-link:hover {
+    background-image: url("../media/3i1lzoxv/menu-tlacitko1-hover.png");
+    background-size: 180px;
+}
+
+.taurus-title-image {
+    width: 270px;
+}
+
+/*
+*** menu horní ***
+*/
+
+.taurus-navbar {
+     margin-top: 16px;
+}
+.taurus-navbar-top {
+    text-align: left;
+}
+
+.taurus-navbar-list-top {
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+    margin-top: 13px;
+}
+
+.taurus-navbar-list {
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+}
+
+.taurus-navbar-list li {
+    margin-top: 10px;
+}
+
+.taurus-header {
+   padding-top: 20px;
+   background-color: rgba(98, 21, 21, 0.5);
+   padding-bottom: 20px;
+   margin-bottom: 40px;
+   text-align: center;
+}
+
+.taurus-line-top {
+    position: absolute;
+    display: none;
+    top: 232px;
+    left: -15px;
+    border: 1px solid #560e0e;
+    width: calc(100% + 13px);
+    color: #560e0e;
+    margin-top: 8px;
+}
+
+/*
+*** menu prostřední ***
+*/
+
+.taurus-line-middle {
+    display: none;
+    position: absolute;
+    top: 355px;
+    left: -15px;
+    border: 1px solid #560e0e;
+    width: calc(100% + 13px);
+    color: #560e0e;
+    margin-top: 8px;
+}
+
+.taurus-title-middle {
+    text-align: center;
+}
+
+.taurus-header-middle {
+    text-align: center;
+    margin-top: 200px;
+}
+
+/*
+*** menu ***
+*/
+
+.taurus-nav-link {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.taurus-nav-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/*
+*** main ***
+*/
+
+.taurus-main {
+    flex: 1 0 auto;
+}
+
+.taurus-mapClear-container {
+    display: none;
+}
+
+.taurus-main-container {
+    background-color: rgba(98, 21, 21, 0.5);
+    /* pro větší zobrazení v media breakeru 
+    padding: 30px !important; */
+    padding: 15px !important;
+    color: white;
+}
+
+.taurus-main-title {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.taurus-main-subttitle {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+/*
+*** new lector a student ***
+*/
+
+.taurus-newlector-table {
+    width: 90%;
+}
+
+.taurus-newlector-inputlabel {
+    font-size: 15px;
+}
+
+.taurus-table-line td {
+    display: inline;
+}
+
+.taurus-main-inner-container, 
+.taurus-reglector-container {
+    border: 1px solid #F08080;
+    margin-top: 50px;
+    /* pro media breaker 
+    padding: 40px;*/
+    padding: 10px 0 10px 10%;
+}
+
+.taurus-newlector-labelcontainer,
+.taurus-logged-labelcontainer {
+    width: 150px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.taurus-logged-labelcontainer-top,
+.taurus-newlector-labelcontainer-top {
+    width: 150px;
+    height: 30px;
+    vertical-align: top;
+    padding-top: 7px;
+    font-size: 15px;
+}
+
+.taurus-logged-edit-input,
+.taurus-table-input {
+    color: black;
+    width: 100%;
+    height: 22px;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    -webkit-padding-before: 0;
+    -moz-padding-before: 0;
+    -webkit-padding-after: 0;
+    -moz-padding-after: 0;
+    -webkit-box-sizing: padding-box;
+    -moz-box-sizing: padding-box;
+}
+
+.taurus-logged-checkboxlabel,
+.taurus-newlector-checkboxlabel {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+.taurus-logged-image-edit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.taurus-logged-fileinput {
+    background: white;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.taurus-newlector-levelscontainer {
+    margin-top: 10px;
+}
+
+.taurus-newlector-checkboxes-container-xs {
+    display: none;    
+}
+
+.taurus-logged-edit-checkboxes-container,
+.taurus-newlector-checkboxes-container {
+    float: left;  
+}
+
+.taurus-logged-edit-checkboxes,
+.taurus-newlector-checkboxes {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#lessons {
+    width: 150px;    
+}
+
+.taurus-logged-dropdown,
+.taurus-newlector-dropdown {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 130px;
+    height: 30px;
+}
+
+.field-validation-error {
+    background-color: #f3e6e7;
+    color: red;
+    padding: 7px;
+    border: 1px solid red;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.field-validation-error-input {
+    position: relative;
+    top: -13px;
+    left: -13px;
+}
+
+.field-validation-error-checkbox {
+    position: relative;
+    left: 5px;
+    top: 2px;
+}
+
+.taurus-newlector-conditions {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.taurus-newlector-conditions-link {
+    color: #9292f3;
+    font-weight: bold;
+}
+
+.taurus-newlector-conditions-link:hover {
+    cursor: pointer;
+}
+
+.taurus-newlector-conditions-container {
+    width: 100%;
+    height: 85%;
+    clear: right;
+    margin-bottom: 20px;
+}
+
+.taurus-newlector-conditions-container-iframe {
+    width: 100%;
+    height: 100%;
+    background-color: #dd7a7a;
+}
+
+.taurus-newlector-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    /*padding-top: 150px;*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.8);
+}
+  
+.taurus-newlector-modal-content {
+    background-color: #640d0d;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #888;
+    height: 100%;
+    overflow: auto;
+}
+
+.modal-close {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: white;
+    padding: 3px 8px 7px 8px;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.taurus-button-downloadconditions {
+    margin: 1% 0 2% 44%;
+}
+
+.taurus-logged-submit,
+.taurus-newlector-submit {
+    height: 30px;
+    width: 120px;
+}
+
+.taurus-newlector-registrationstatus {
+    width: 200px;
+    text-align: center;
+    position: relative;
+    left: 110px;
+    top: -28px;
+}
+
+.taurus-mapClear-alternative {
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+.lector-mapContainer {
+    display: none;
+}
+
+/*
+*** mapa pro nového lektora ***
+*/
+
+#image-map area:focus {
+    outline: none;
+}
+
+.taurus-czech-map-container {
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: none;
+}
+
+#taurus-czech-map {
+    margin: 0 auto;  
+}
+
+.taurus-hidden {
+    display: none;
+}
+
+#taurus-map-additionalplace-container {
+    display: none;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.Taurus-modalMessage {
+    margin-top: 70px;
+    font-size: larger;
+    text-align: center;
+}
+
+.Taurus-modalMessage a:hover {
+    text-decoration: none;
+}
+
+.taurus-newlector-modal-smaller-content {
+    background-color: #640d0d;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 200px;
+    overflow: auto;
+}
+
+/*
+*** login stránka ***
+*/
+
+.taurus-login-title {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.taurus-login-container {    
+    display: block;
+    margin: 0 auto;
+    width: 205px;
+    
+}
+
+.taurus-login-container input[type='text'] {
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    color: black;
+}
+
+.taurus-login-container input[type='password'] {
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    color: black;
+}
+
+.taurus-login-container label[for='RememberMe'] {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.taurus-login-container input[type='checkbox'] {
+    margin-left: 7px;
+    margin-top: 12px;
+}
+
+.taurus-login-container input[type='submit'] {
+    height: 30px;
+    width: 100px;
+    margin: 5% 0 0 23%;
+}
+
+/*
+*** zaregistrovaný učitel ***
+*/
+
+.taurus-logged-info {
+    margin-right: 0px;
+    margin-left: auto;
+    display: block;
+    width: 300px;
+    text-align: right;
+}
+
+.taurus-logged-info a {
+    text-decoration: none;
+    color: #9292f3;
+}
+
+.taurus-logged-navigation-container {
+    float: left;
+    Display: block;
+    margin-top: 10px;
+}
+
+.taurus-logged-navigation {
+    list-style: none;
+}
+
+.taurus-logged-navigation li {
+    float: left;
+}
+
+.taurus-logged-navlink {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.taurus-logged-navigation .taurus-logged-navigation-normal {
+    position: absolute;
+}
+
+.taurus-logged-navigation .taurus-logged-navigation-bold {
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.taurus-logged-navigation:hover .taurus-logged-navagation-normal {
+    visibility: hidden;
+}
+
+.taurus-logged-navigation:hover .taurus-logged-navagation-bold {
+    visibility: visible;
+}
+
+.taurus-logged-profile {
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.taurus-logged-lessonslist,
+.taurus-logged-levellist {
+    list-style-type: "-  ";
+}
+
+.taurus-logged-textarea {
+    
+}
+
+/*
+*** footer ***
+*/
+
+.taurus-footer-bottom {
+    min-height: 150px;
+    background-color: rgba(98, 21, 21, 0.5);
+    text-align: center;
+    padding-top: 30px;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.taurus-footer {
+    min-height: 150px;
+    background-color: rgba(98, 21, 21, 0.5);
+    text-align: center;
+    padding-top: 30px;
+    /*grid-row-start: 3;
+    grid-row-end: 4;*/
+    flex-shrink: 0;
+    margin-top: 20px;
+    
+}
+
+.taurus-footer-item {
+    color: #7a7a7a;
+    text-align: left;
+}
+
+.taurus-footer-list-FAQconditions {
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 0;
+}
+
+.taurus-footer-item-FAQconditions {
+    color: #7a7a7a;
+}
+
+.taurus-footer-item-FAQconditions:hover {
+    color: #7a7a7a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.taurus-footer-item-FAQconditions:activ {
+    color: #7a7a7a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.taurus-footer-mythical {
+    float: left;   
+}
+
+.taurus-footer-item-icon-email
+{
+    margin: 0 5px;
+    padding-top: 3px;
+}
+
+.taurus-footer-item-icon-web
+{
+    margin: 0 5px;
+    height: 23px;
+}
+
+/*
+*** modal ***
+*/
+
+.modal-window {
+    text-align: center;
+    padding-top: 9%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.taurus-modal-content {
+    display: inline-block !important;
+    overflow: hidden !important;
+    text-align: left !important;
+    background-color: #640d0d;
+    padding: 20px;
+    border: 1px solid #888;
+}
+
+/*
+*** media ***
+*/
+
+@media (min-width: 576px) {
+    /* menu plus prvni stránka */
+    
+    .taurus-html {
+        background-size: 450px, 120px, 120px;
+    }
+
+    .taurus-header-middle {
+        margin-top: 250px;
+    }
+    
+    .taurus-header {
+        background-color: transparent;
+    }
+    
+    .taurus-title-top {
+        text-align: center;
+    }
+    
+    .taurus-title-image {
+        width: 500px;    
+    }
+    
+    .taurus-navbar li {
+        float: left;
+    }
+    
+    .taurus-line-middle {
+        display: block;
+    }
+    
+    .taurus-navigation-link-top {
+        background-image: url("../media/mttp0rjv/menu-tlacitko1.png");
+        background-size: 180px;
+        width: 180px;
+        height: 40px;
+        text-align: center;
+        padding-top: 3px;
+        padding-bottom: 0;
+    }
+    
+    .taurus-navigation-link-top:hover {
+        background-image: url("../media/3i1lzoxv/menu-tlacitko1-hover.png");
+    }
+    
+    .taurus-navigation-link-top:active {
+        background-image: url("../media/3i1lzoxv/menu-tlacitko1-hover.png");
+    }
+    
+    /* main */
+    .taurus-table-line td {
+        display: table-cell;
+    }
+    
+    .taurus-mapClear-alternative {
+        padding: 20px 0 20px 22%;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 576px) {
+    .taurus-header {
+        background-color: rgba(98, 21, 21, 0.5)
+    }
+    
+    .taurus-header-middle {
+        margin-top: 30px;
+    }
+    
+    .taurus-line-middle {
+        display: none;
+    }
+    
+    .taurus-html {
+        background-size: 250px, 90px, 90px;
+    }
+    
+    .taurus-navbar-top {
+        margin-left: 0;
+        padding-left: 0;
+        text-align: left;
+    }
+    
+    .taurus-navbar li {
+        float: initial;
+    }
+    
+    .taurus-footer-bottom {
+        position: initial;
+    }
+    
+    .taurus-navigation-link-top {
+        background: transparent;
+        width: auto;
+        height: auto;
+        text-align: left;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .taurus-navigation-link-top:hover {
+        background: transparent;
+    }
+    
+    .taurus-navigation-link-top:active {
+        background-image: transparent;
+    }
+    
+    .taurus-mapClear-alternative {
+        padding: 20px 0 20px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .taurus-html {
+        background-size: 300px, 120px, 120px;
+    }
+    
+    .taurus-header {
+        background: transparent;
+    }
+    
+    .taurus-navbar-top {
+        text-align: center;
+        margin-left: 30px;
+    }
+    
+   .taurus-navbar-list-top {
+        list-style: none;
+        padding-left: 0;
+        display: inline-block;
+        margin-top: 21px;
+    }
+    .taurus-navbar-list-top li {
+        float: left;
+    }
+    
+    .taurus-navigation-link {
+        background-size: 180px;
+        width: 180px;
+        height: 40px;
+        padding-top: 3px;
+        padding-bottom: 0;
+    }
+    
+    .taurus-navigation-link-top {
+        background-image: url("../media/mttp0rjv/menu-tlacitko1.png");
+        background-size: 180px;
+        width: 180px;
+        height: 40px;
+        text-align: center;
+        padding-top: 1px;
+        padding-bottom: 0;
+    }
+    
+    .taurus-navigation-link-top:hover {
+        background-image: url("../media/3i1lzoxv/menu-tlacitko1-hover.png");
+        background-size: 180px;
+    }
+    
+    .taurus-navigation-link-top:active {
+        background-image: url("../media/3i1lzoxv/menu-tlacitko1-hover.png");
+        background-size: 180px;
+    }
+    
+    .taurus-navigation-link:active {
+        background-size: 180px;
+    }
+    
+    .taurus-navigation-link:hover {
+        background-size: 180px;
+    }
+    
+    .taurus-footer-item {
+        text-align: center;
+    }
+
+     .taurus-main-title {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .taurus-main-subttitle {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .taurus-newlector-table {
+        width: 80%;
+    }
+    
+    .taurus-main-inner-container, 
+    .taurus-reglector-container {
+        border: 1px solid #F08080;
+        margin-top: 50px;
+        padding: 40px 0 40px 15%;
+    }
+    
+     .taurus-newlector-inputlabel {
+        font-size: 18px;
+    }
+    
+    .taurus-logged-checkboxlabel,
+    .taurus-newlector-checkboxlabel {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    
+    .taurus-logged-labelcontainer-top,
+    .taurus-newlector-labelcontainer-top {
+        width: 150px;
+        height: 30px;
+        vertical-align: top;
+        padding-top: 7px;
+        font-size: 18px;
+    }
+    
+    .taurus-newlector-conditions {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    
+    .taurus-logged-edit-input,
+    .taurus-table-input {
+        color: black;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 30px;
+    }
+
+    .taurus-navbar li {
+        float: left;
+    }
+    
+    .taurus-line-middle {
+        display: block;
+    }
+    
+    .taurus-line-top {
+        display: block;
+        top: 118px;
+    }
+    
+    .taurus-mapClear-alternative {
+        padding: 20px 0 20px 0;
+    }
+    
+    /* modální okno */
+    .taurus-newlector-modal {
+        padding: 40px;
+    }
+    
+    .taurus-modal-message {
+        height: 100px;
+        margin-top: 22%;
+    }
+    
+    .taurus-footer-list-FAQconditions {
+        padding-left: auto;
+    }
+}
+
+@media (min-width: 960px) {
+    .taurus-nav-link {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    
+    .taurus-navigation-link {
+        background-size: 200px;
+        width: 200px;
+        height: 45px;
+    }
+    
+    .taurus-navigation-link:hover {
+        background-size: 200px;
+    }
+    
+    .taurus-navigation-link:active {
+        background-size: 200px;
+    }
+    
+}
+
+@media (orientation: landscape) and (min-width: 960px) {
+       .taurus-newlector-table {
+        width: 75%;
+    }
+    
+    .taurus-main-inner-container, 
+    .taurus-reglector-container {
+        border: 1px solid #F08080;
+        margin: 50px 10% 50px 10%;
+        padding: 40px 0 40px 16%;
+    }
+
+    .taurus-header-middle {
+        margin-top: 250px;
+    }
+    
+    .taurus-mapClear-container {
+        display: block;
+    }
+    
+    .taurus-mapClear-alternative {
+        display: none;
+    }
+    
+    .taurus-czech-map-container {
+        display: block;
+    }
+}
+
+
+@media (min-width: 1140px) {
+   .taurus-navbar-list-top {
+        list-style: none;
+        padding-left: 0;
+        display: inline-block;
+        margin-top: 13px;
+    }
+    .taurus-html {
+        background-size: auto;
+    }
+    
+    .taurus-nav-link {
+        font-size: 20px;
+        padding-top: 8px;
+    }
+    
+    .taurus-navigation-link-top {
+        background-size: auto;
+        width: 250px;
+        height: 56px;
+    }
+    
+    .taurus-navigation-link-top:hover {
+        background-size: auto;
+    }
+    
+    .taurus-navigation-link-top:active {
+        background-size: auto;
+    }
+    
+    .taurus-navigation-link {
+        background-size: auto;
+        width: 250px;
+        height: 56px;
+    }
+    
+    .taurus-navigation-link:hover {
+        background-size: auto;
+    }
+    
+    .taurus-navigation-link:active {
+        background-size: auto;
+    }
+
+    .taurus-newlector-table {
+        width: 70%;
+    }
+    
+    .taurus-main-inner-container, 
+    .taurus-reglector-container {
+        border: 1px solid #F08080;
+        margin: 50px 10% 50px 10%;
+        padding: 40px 0 40px 18%;
+    }
+    
+    .taurus-line-middle {
+        top: 362px;
+    }
+    
+    .taurus-main-title {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .taurus-main-subttitle {
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    .taurus-logged-checkboxlabel,
+    .taurus-newlector-checkboxlabel {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    
+    /* modální okno */
+    .taurus-newlector-modal {
+        padding-top: 100px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    
+    .taurus-newlector-modal-content {
+        margin: 0 auto;
+        width: 80%;
+        height: 600px;
+    }
+}
+
+@media (min-width: 1367px) {
+    .taurus-newlector-table {
+        width: 50%;
+    }
+    
+    .taurus-main-inner-container, 
+    .taurus-reglector-container {
+        border: 1px solid #F08080;
+        margin: 50px 12% 50px 12%;
+        /* pro media breaker 
+        padding: 40px;*/
+        padding: 40px 0 40px 25%;
+    }
+    
+    .taurus-newlector-inputlabel {
+        font-size: 20px;
+    }
+    
+    .taurus-logged-checkboxlabel,
+    .taurus-newlector-checkboxlabel {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    
+    .taurus-logged-labelcontainer-top,
+    .taurus-newlector-labelcontainer-top {
+        width: 150px;
+        height: 30px;
+        vertical-align: top;
+        padding-top: 7px;
+        font-size: 20px;
+    }
+    
+    .taurus-newlector-conditions {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    
+    .taurus-newlector-modal {
+        padding-top: 9%;
+    }
+}

@@ -1,0 +1,664 @@
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\amd64\sqlceca40.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\amd64\sqlcecompact40.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\amd64\sqlceer40EN.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\amd64\sqlceme40.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\amd64\sqlceqp40.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\amd64\sqlcese40.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\x86\sqlceca40.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\x86\sqlcecompact40.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\x86\sqlceer40EN.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\x86\sqlceme40.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\x86\sqlceqp40.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\x86\sqlcese40.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\TaurusEdeucation.dll.config
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\TaurusEdeucation.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\TaurusEdeucation.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\csc.exe
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\csc.exe.config
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\csc.rsp
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\csi.exe
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\csi.exe.config
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\csi.rsp
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.AppContext.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Collections.Immutable.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Console.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Globalization.Calendars.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.IO.Compression.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.IO.FileSystem.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Net.Http.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Net.Sockets.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.ValueTuple.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Xml.XPath.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\vbc.exe
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\vbc.exe.config
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\vbc.rsp
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\VBCSCompiler.exe
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\roslyn\VBCSCompiler.exe.config
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\BouncyCastle.Crypto.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\ClientDependency.Core.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\ClientDependency.Core.Mvc.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Common.Logging.Core.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Common.Logging.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\CSharpTest.Net.Collections.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\EPPlus.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Examine.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\HtmlAgilityPack.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\HtmlRenderer.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\ICSharpCode.SharpZipLib.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\ImageProcessor.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\ImageProcessor.Web.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\LightInject.Annotation.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\LightInject.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\LightInject.Mvc.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\LightInject.Web.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\LightInject.WebApi.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Lucene.Net.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Markdown.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Routing.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeAnalysis.CSharp.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeAnalysis.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Options.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Primitives.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Net.Http.Headers.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Security.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Web.Infrastructure.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\MiniProfiler.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\MiniProfiler.Shared.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Newtonsoft.Json.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\NPoco.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Owin.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\PdfSharp.Charting.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\PdfSharp.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Semver.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Enrichers.Process.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Enrichers.Thread.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Filters.Expressions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Formatting.Compact.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Formatting.Compact.Reader.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Settings.AppSettings.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Sinks.Async.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Sinks.File.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Sinks.Map.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Superpower.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Buffers.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Collections.Immutable.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.ComponentModel.Annotations.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Data.SqlServerCe.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Data.SqlServerCe.Entity.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Memory.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Net.Http.Formatting.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Numerics.Vectors.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Reflection.Metadata.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Text.Encoding.CodePages.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Text.Encodings.Web.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Threading.Tasks.Dataflow.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Threading.Tasks.Extensions.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.ValueTuple.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.Helpers.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.Http.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.Http.WebHost.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.Mvc.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.Razor.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.WebPages.Deployment.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.WebPages.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.WebPages.Razor.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.Core.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.Examine.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.Forms.Core.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.Forms.Core.Providers.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.Forms.Web.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.Licensing.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.ModelsBuilder.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.Web.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.Web.UI.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\BouncyCastle.Crypto.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\ClientDependency.Core.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\ClientDependency.Core.Mvc.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Common.Logging.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Common.Logging.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Common.Logging.Core.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Common.Logging.Core.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\CSharpTest.Net.Collections.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\EPPlus.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Examine.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\HtmlAgilityPack.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\HtmlAgilityPack.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\HtmlRenderer.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\ImageProcessor.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\ImageProcessor.Web.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\LightInject.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\LightInject.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\LightInject.Annotation.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\LightInject.Mvc.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\LightInject.Web.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\LightInject.Web.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\LightInject.WebApi.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\LightInject.WebApi.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\LightInject.WebApi.dll.config
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Lucene.Net.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Lucene.Net.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Routing.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeAnalysis.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeAnalysis.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeAnalysis.CSharp.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Options.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Primitives.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.IO.RecyclableMemoryStream.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Net.Http.Headers.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Security.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\MiniProfiler.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\MiniProfiler.Shared.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Newtonsoft.Json.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Newtonsoft.Json.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\PdfSharp.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\PdfSharp.Charting.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Semver.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Enrichers.Thread.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Filters.Expressions.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Formatting.Compact.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Formatting.Compact.Reader.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Sinks.Async.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Sinks.File.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Serilog.Sinks.Map.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Superpower.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Buffers.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Collections.Immutable.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Memory.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Net.Http.Formatting.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Numerics.Vectors.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Reflection.Metadata.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Text.Encodings.Web.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Threading.Tasks.Dataflow.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Threading.Tasks.Extensions.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.ValueTuple.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.Helpers.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.Http.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.Http.WebHost.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.Mvc.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.Razor.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.WebPages.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.WebPages.Deployment.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\System.Web.WebPages.Razor.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.Core.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.Core.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.Examine.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.Examine.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.ModelsBuilder.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.Web.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.Web.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\Umbraco.Web.UI.xml
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\de\Microsoft.CodeAnalysis.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\es\Microsoft.CodeAnalysis.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\it\Microsoft.CodeAnalysis.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\de\PdfSharp.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\de\PdfSharp.Charting.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\cs\System.Web.Helpers.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\cs\System.Web.Mvc.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\cs\System.Web.Razor.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\cs\System.Web.WebPages.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\cs\System.Web.WebPages.Deployment.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\bin\cs\System.Web.WebPages.Razor.resources.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\obj\Debug\TaurusEdeucation.csproj.CoreCompileInputs.cache
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\obj\Debug\TaurusEdeucation.csproj.CopyComplete
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\obj\Debug\TaurusEdeucation.dll
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\obj\Debug\TaurusEdeucation.pdb
+C:\Mythical Design\Weby\Taurus---web\TaurusEdeucation\obj\Debug\TaurusEdeucation.csprojAssemblyReference.cache
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\amd64\sqlceca40.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\amd64\sqlcecompact40.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\amd64\sqlceer40EN.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\amd64\sqlceme40.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\amd64\sqlceqp40.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\amd64\sqlcese40.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\x86\sqlceca40.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\x86\sqlcecompact40.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\x86\sqlceer40EN.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\x86\sqlceme40.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\x86\sqlceqp40.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\x86\sqlcese40.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\TaurusEdeucation.dll.config
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\TaurusEdeucation.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\TaurusEdeucation.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\csc.exe
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\csc.exe.config
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\csc.rsp
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\csi.exe
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\csi.exe.config
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\csi.rsp
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.Managed.Core.targets
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.AppContext.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Collections.Immutable.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Console.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Globalization.Calendars.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.IO.Compression.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.IO.FileSystem.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Net.Http.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Net.Sockets.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Reflection.Metadata.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.ValueTuple.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Xml.XmlDocument.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Xml.XPath.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\vbc.exe
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\vbc.exe.config
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\vbc.rsp
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\VBCSCompiler.exe
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\roslyn\VBCSCompiler.exe.config
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\BouncyCastle.Crypto.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\ClientDependency.Core.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\ClientDependency.Core.Mvc.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Common.Logging.Core.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Common.Logging.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\CSharpTest.Net.Collections.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\EPPlus.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Examine.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\HtmlAgilityPack.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\HtmlRenderer.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\ICSharpCode.SharpZipLib.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\ImageProcessor.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\ImageProcessor.Web.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\LightInject.Annotation.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\LightInject.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\LightInject.Mvc.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\LightInject.Web.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\LightInject.WebApi.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Lucene.Net.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Markdown.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNet.Identity.Core.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authorization.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Routing.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeAnalysis.CSharp.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeAnalysis.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.DependencyModel.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.ObjectPool.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Options.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Primitives.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.IO.RecyclableMemoryStream.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Net.Http.Headers.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Security.Cookies.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Security.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Security.OAuth.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Web.Infrastructure.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\MiniProfiler.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\MiniProfiler.Shared.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Newtonsoft.Json.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\NPoco.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Owin.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\PdfSharp.Charting.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\PdfSharp.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Semver.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Enrichers.Process.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Enrichers.Thread.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Filters.Expressions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Formatting.Compact.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Formatting.Compact.Reader.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Settings.AppSettings.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Sinks.Async.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Sinks.File.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Sinks.Map.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Superpower.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Buffers.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Collections.Immutable.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.ComponentModel.Annotations.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Data.SqlServerCe.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Data.SqlServerCe.Entity.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Diagnostics.DiagnosticSource.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Memory.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Net.Http.Formatting.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Numerics.Vectors.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Reflection.Metadata.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Text.Encoding.CodePages.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Text.Encodings.Web.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Threading.Tasks.Dataflow.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Threading.Tasks.Extensions.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.ValueTuple.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.Helpers.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.Http.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.Http.WebHost.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.Mvc.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.Razor.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.WebPages.Deployment.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.WebPages.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.WebPages.Razor.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.Core.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.Examine.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.Forms.Core.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.Forms.Core.Providers.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.Forms.Web.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.Licensing.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.ModelsBuilder.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.Web.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.Web.UI.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\BouncyCastle.Crypto.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\ClientDependency.Core.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\ClientDependency.Core.Mvc.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Common.Logging.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Common.Logging.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Common.Logging.Core.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Common.Logging.Core.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\CSharpTest.Net.Collections.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\EPPlus.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Examine.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\HtmlAgilityPack.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\HtmlAgilityPack.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\HtmlRenderer.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\ImageProcessor.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\ImageProcessor.Web.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\LightInject.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\LightInject.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\LightInject.Annotation.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\LightInject.Mvc.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\LightInject.Web.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\LightInject.Web.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\LightInject.WebApi.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\LightInject.WebApi.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\LightInject.WebApi.dll.config
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Lucene.Net.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Lucene.Net.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNet.Identity.Core.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authorization.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Routing.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeAnalysis.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeAnalysis.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeAnalysis.CSharp.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeAnalysis.CSharp.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.ObjectPool.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Options.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Extensions.Primitives.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.IO.RecyclableMemoryStream.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Net.Http.Headers.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Security.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Security.Cookies.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Microsoft.Owin.Security.OAuth.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\MiniProfiler.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\MiniProfiler.Shared.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Newtonsoft.Json.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Newtonsoft.Json.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\PdfSharp.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\PdfSharp.Charting.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Semver.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Enrichers.Thread.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Filters.Expressions.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Formatting.Compact.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Formatting.Compact.Reader.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Sinks.Async.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Sinks.File.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Serilog.Sinks.Map.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Superpower.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Buffers.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Collections.Immutable.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Diagnostics.DiagnosticSource.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Memory.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Net.Http.Formatting.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Numerics.Vectors.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Reflection.Metadata.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Text.Encodings.Web.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Threading.Tasks.Dataflow.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Threading.Tasks.Extensions.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.ValueTuple.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.Helpers.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.Http.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.Http.WebHost.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.Mvc.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.Razor.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.WebPages.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.WebPages.Deployment.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\System.Web.WebPages.Razor.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.Core.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.Core.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.Examine.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.Examine.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.ModelsBuilder.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.Web.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.Web.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\Umbraco.Web.UI.xml
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\cs\Microsoft.CodeAnalysis.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\de\Microsoft.CodeAnalysis.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\es\Microsoft.CodeAnalysis.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\fr\Microsoft.CodeAnalysis.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\it\Microsoft.CodeAnalysis.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\ja\Microsoft.CodeAnalysis.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\ko\Microsoft.CodeAnalysis.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\pl\Microsoft.CodeAnalysis.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\ru\Microsoft.CodeAnalysis.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\tr\Microsoft.CodeAnalysis.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\de\PdfSharp.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\de\PdfSharp.Charting.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\cs\System.Web.Helpers.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\cs\System.Web.Mvc.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\cs\System.Web.Razor.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\cs\System.Web.WebPages.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\cs\System.Web.WebPages.Deployment.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\bin\cs\System.Web.WebPages.Razor.resources.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\obj\Debug\TaurusEdeucation.csproj.CoreCompileInputs.cache
+C:\SourceCodes\Taurus---web\TaurusEdeucation\obj\Debug\TaurusEdeucation.csproj.CopyComplete
+C:\SourceCodes\Taurus---web\TaurusEdeucation\obj\Debug\TaurusEdeucation.dll
+C:\SourceCodes\Taurus---web\TaurusEdeucation\obj\Debug\TaurusEdeucation.pdb
+C:\SourceCodes\Taurus---web\TaurusEdeucation\obj\Debug\TaurusEdeucation.csproj.AssemblyReference.cache

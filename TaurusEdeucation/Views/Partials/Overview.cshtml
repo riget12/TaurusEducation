@@ -1,0 +1,89 @@
+﻿@model TaurusEdeucation.Models.OverviewModel
+
+<div class="col">
+    @using (Html.BeginUmbracoForm("Overview", "OverviewSurface"))
+    {
+        <div class="taurus-reglector-container">
+            <div>
+                <h3 class="taurus-reglector-h3">Přidat nového studenta</h3>
+                @Html.LabelFor(m => m.studentName, "Jméno")
+                @Html.TextBoxFor(m => m.studentName, new { id="newStudentName" }) 
+                <div>
+                    @Html.LabelFor(m => m.newStudentName, "Předmět")
+                    @Html.DropDownListFor(m => m.newStudentLesson, Model.listOfLessons, new { id="newStudentLesson" }) 
+                </div>
+                <button id="newStudentButton" onclick="SaveNewStudent()">Uložit nového studenta</button>
+            </div>
+            <div class="taurus-reglector-overview-updatestudent">
+                <h3 class="taurus-reglector-h3">Upravit stávajícího studenta</h3>
+                
+                <div class="taurus-reglector-student">
+                    @Html.LabelFor(m => m.studentName, "Student", new{  @class="taurus-reglector-labelcontainer"})
+                    @Html.DropDownListFor(m => m.studentName, Model.studentNames, new { id="studentName", onchange = "UpdateData()" }) 
+                </div>
+                <div class="taurus-reglector-status">
+                    @Html.LabelFor(m => m.status, "Status", new{ @class="taurus-reglector-labelcontainer"})
+                    @Html.DropDownListFor(m => Model.status.output, Model.status.list, new { id="status" }) 
+                </div>
+                <div>
+                    <div class="taurus-reglector-datum">
+                        @Html.LabelFor(m => m.year, "Rok")
+                        <br />
+                        @Html.EditorFor(m => m.year, new { htmlAttributes = new { id="yearControl", type="number", min=2020, max=2100, @class = "taurus-reglector-overview-number", onchange = "YearControl()", Value="2020" } })
+                    </div>
+                    <div class="taurus-reglector-datum">
+                        @Html.LabelFor(m => m.month, "Měsíc")
+                        <br />
+                        @Html.EditorFor(m => m.month, new { htmlAttributes = new { id="monthControl", min=1, max=12, @class = "taurus-reglector-overview-number", onchange = "MonthCheck()", onclick = "MonthControl()", last="1", Value="1" } })
+                    </div>
+                </div>
+                <div class="col taurus-reglector-overview">
+                    <table>
+                        <tr class="taurus-reglector-containerline">
+                            <th>
+                                Den
+                            </th>
+                            <th>
+                                Počet hodin
+                            </th>
+                            <th>
+                                Cena
+                            </th>
+                        </tr>
+                            @for (int i = 0; i <31; i++)
+                            {
+                                <tr class="taurus-reglector-containerline">
+                                    <td>
+                                        @Html.LabelFor(m => m.lessonsList[i], (1 + i).ToString(), new { htmlAttributes = new { id="name"+(1+i), name="name", style = "visibility: visible" } })
+                                    </td>
+                                    <td>
+                                        @Html.EditorFor(m => m.lessonsList[i].hour, new { htmlAttributes = new { id="hour"+(1+i), name="hour", type="text", @class="taurus-reglector-overview-tablenumber" } })
+                                    </td>
+                                    <td>
+                                        @Html.EditorFor(m => m.lessonsList[i].price, new { htmlAttributes = new { id="price"+(1+i), name="price", type="text", @class="taurus-reglector-overview-tablenumber" } })
+                                    </td>
+                                </tr>
+                            }
+                    </table>
+                </div>
+            
+                <input type="submit" value="Ulož" class="taurus-reglector-submit">
+            </div>
+        </div>
+    }
+</div>
+
+
+<div>
+    
+</div>
+    
+<script>
+    window.onload = function() {
+        UpdateCalendar();
+        UpdateData();
+    };
+</script>
+
+<script src="/Scripts/Taurus-profile.js"></script>
+

@@ -1,0 +1,8 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Taurus_RegisteredLector_OverView>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+	Layout = "Taurus_RegisteredLector_Template.cshtml";
+}
+<div>
+    @Html.Action("Overview", "OverviewSurface")
+</div>

@@ -1,0 +1,78 @@
+﻿@model TaurusEdeucation.Models.StudentRegisterModel
+@{
+    using(Html.BeginUmbracoForm("StudentRegisterPost", "StudentRegisterSurface"))
+    {
+        <table class="taurus-newstudent-table">
+            <tr class="taurus-table-line">
+                <td class="taurus-newstudent-labelcontainer">
+                    @Html.LabelFor(m => m.FirstName, "Jméno", new { @class="taurus-newstudent-inputlabel" })    
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.FirstName, new { @class="taurus-newstudent-input" })
+                    @Html.ValidationMessageFor(m => m.FirstName, "", new { @class="field-validation-error-input" })    
+                </td>
+            </tr>
+            <tr class="taurus-table-line">
+                <td class="taurus-newstudent-labelcontainer">
+                    @Html.LabelFor(m => m.SurName, "Příjmení", new { @class="taurus-newstudent-inputlabel" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.SurName, new { @class="taurus-newstudent-input" })
+                    @Html.ValidationMessageFor(m => m.SurName, "", new { @class="field-validation-error-input" })
+                </td>
+            </tr>
+            <tr class="taurus-table-line">
+                <td class="taurus-newstudent-labelcontainer">
+                    @Html.LabelFor(m => m.Email, "E-mail", new { @class="taurus-newstudent-inputlabel" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Email, new { @class="taurus-newstudent-input" })
+                    @Html.ValidationMessageFor(m => m.Email, "", new { @class="field-validation-error-input" })
+                </td>
+            </tr>
+            <tr class="taurus-table-line">
+                <td class="taurus-newstudent-labelcontainer">
+                    @Html.LabelFor(m => m.Phone, "Telefon", new { @class="taurus-newstudent-inputlabel" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Phone, new { @class="taurus-newstudent-input" })
+                    @Html.ValidationMessageFor(m => m.Phone, "", new { @class="field-validation-error-input" })
+                </td>
+            </tr>
+            <tr class="taurus-table-line">
+                <td class="taurus-newstudent-labelcontainer">
+                    @Html.LabelFor(m => m.LevelOfStudy, "Úroveň doučování", new { @class="taurus-newstudent-inputlabel" })
+                </td>
+                <td>
+                    @Html.DropDownListFor(m => m.LevelOfStudy, Model.LevelsList, new { id="level", @class="taurus-newstudent-dropdown" })
+                    @Html.ValidationMessageFor(m => m.LevelOfStudy, "", new { @class="field-validation-error-input" })
+                </td>
+            </tr>
+            <tr class="taurus-table-line">
+                <td class="taurus-newlector-labelcontainer">
+                    @Html.LabelFor(m => m.Lessons, "Předmět", new { @class="taurus-newlector-inputlabel" })
+                </td>
+                <td>
+                    @Html.DropDownListFor(m => m.Lessons.Output, Model.Lessons.List, new { id="lesson", @class="taurus-newstudent-dropdown" })
+                </td>
+            </tr>
+        </table>
+        
+        <input class="taurus-newlector-submit taurus-hidden" type="submit">
+    }
+    
+    var tempValueObject = TempData["RegistrationStatus"];
+    
+    if (tempValueObject != null)
+    {    
+        <div class="field-validation-error taurus-newlector-registrationstatus">
+            @tempValueObject
+        </div>
+    }
+    
+    @Html.HiddenFor(m => m.Kraj)
+    @Html.HiddenFor(m => m.Okres)
+}
+
+<button onclick="getAvailableLectors()" class="taurus-newstudent-buttonfindlectors">Najít lektory</button>
+

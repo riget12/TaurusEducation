@@ -1,0 +1,75 @@
+﻿@model TaurusEdeucation.Models.StudentRegisterModel
+@{
+    using (Html.BeginUmbracoForm("StudentRegisterPost", "StudentRegisterSurface"))
+    {
+        <div class="mb-3">
+            @Html.LabelFor(m => m.FirstName, new { @class = "form-label" })
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.FirstName, "", new { @class = "field-validation-error-input" })
+            </div>
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.SurName, new { @class = "form-label" })
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.SurName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.SurName, "", new { @class = "field-validation-error-input" })
+            </div>
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Email, new { @class = "form-label" })
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "field-validation-error-input" })
+            </div>
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Phone, new { @class = "form-label" })
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.Phone, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Phone, "", new { @class = "field-validation-error-input" })
+            </div>
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Level)
+            <div class="input-group">
+                @Html.DropDownListFor(m => Model.Level, Model.LevelList.List, new
+                {
+                    changed = false,
+                    style = "visibility: visible",
+                    @class = "form-select select-placeholder level-selector"
+                })
+
+                @Html.DropDownListFor(m => Model.Lesson, new List<SelectListItem>(), new
+                {
+                    changed = false,
+                    onchange = "NextLesson(this)",
+                    style = "visibility: visible",
+                    @class = "form-select select-placeholder"
+                })
+
+            </div>
+        </div>
+
+        <input class="taurus-newlector-submit taurus-hidden" type="submit">
+    }
+
+    var tempValueObject = TempData["RegistrationStatus"];
+
+    if (tempValueObject != null)
+    {
+        <div class="field-validation-error taurus-newlector-registrationstatus">
+            @tempValueObject
+        </div>
+    }
+
+    @Html.HiddenFor(m => m.Kraj)
+    @Html.HiddenFor(m => m.Okres)
+}
+
+<button id="getLectorsButton" class="taurus-newstudent-buttonfindlectors">Najít lektory</button>
+

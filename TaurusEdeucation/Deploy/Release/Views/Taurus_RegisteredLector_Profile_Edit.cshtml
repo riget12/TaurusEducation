@@ -1,0 +1,15 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Taurus_RegisteredLector_Profile_Edit>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+	Layout = "Taurus_RegisteredLector_Template.cshtml";
+}
+
+<div class="taurus-logged-profile">
+    @Html.Action("MemberProfileEditGet", "MemberProfileEditSurface")
+    <hr class="line" />
+    @Html.Partial("MemberProfileEditPhoto")
+    <hr class="line" />
+    @Html.Action("MemberProfileEditPasswordGet", "MemberProfileEditSurface")
+</div>
+
+<script src="/Scripts/Taurus-profile.js"></script>

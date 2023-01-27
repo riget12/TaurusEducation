@@ -1,0 +1,121 @@
+﻿@model TaurusEdeucation.Models.MemberProfileEditModel
+@{
+    using (Html.BeginUmbracoForm("MemberProfileEditPost", "MemberProfileEditSurface"))
+    {
+        @Html.TextBoxFor(m => m.Id, new { id = "lector_id", @class = "hidden" })
+        <div class="mb-3">
+            @Html.LabelFor(m => m.FirstName, new { @class = "form-label" })
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control", @readonly = true })
+                @Html.ValidationMessageFor(m => m.FirstName, "", new { @class = "field-validation-error-input" })
+            </div>
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.SurName, new { @class = "form-label" })
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.SurName, new { @class = "form-control", @readonly = true })
+                @Html.ValidationMessageFor(m => m.SurName, "", new { @class = "field-validation-error-input" })
+            </div>
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Street, new { @class = "form-label" })
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.Street, new { @class = "form-control", @readonly = true })
+                @Html.ValidationMessageFor(m => m.Street, "", new { @class = "field-validation-error-input" })
+            </div>
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.City, new { @class = "form-label" })
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.City, new { @class = "form-control", @readonly = true })
+                @Html.ValidationMessageFor(m => m.City, "", new { @class = "field-validation-error-input" })
+            </div>
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Phone, new { @class = "form-label" })
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.Phone, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Phone, "", new { @class = "field-validation-error-input" })
+            </div>
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Email, new { @class = "form-label" })
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "field-validation-error-input" })
+            </div>
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Levels)
+            <div class="input-group">
+                @Html.DropDownListFor(m => Model.Levels[0], Model.LevelList.List, new
+            {
+                changed = false,
+                style = "visibility: visible",
+                @data_order = 0,
+                @class = "form-select select-placeholder level-selector"
+            })
+
+                @Html.DropDownListFor(m => Model.Lessons[0], new List<SelectListItem>(), new
+                {
+                    changed = false,
+                    onchange = "NextLesson(this)",
+                    style = "visibility: visible",
+                    @data_order = 0,
+                    @class = "form-select select-placeholder"
+                })
+
+                @for (int i = 1; i <= 10; i++)
+                {
+                    <div>
+                        @Html.DropDownListFor(m => Model.Levels[i], Model.LevelList.List, new
+                        {
+                            @changed = false,
+                            style = "display: none",
+                            @data_order = i,
+                            @class = "form-select select-placeholder level-selector"
+                        })
+
+                        @Html.DropDownListFor(m => Model.Lessons[i], new List<SelectListItem>(), new
+                        {
+                            changed = false,
+                            onchange = "NextLesson(this)",
+                            style = "display: none",
+                            @data_order = i,
+                            @class = "form-select select-placeholder"
+                        })
+                    </div>
+                }
+                @Html.ValidationMessageFor(m => m.Lessons, "", new { @class = "field-validation-error-input" })
+            </div>
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Resume, new { @class = "form-label" })
+            <div class="input-group">
+                @Html.TextAreaFor(m => m.Resume, new { rows = "4", @class = "form-control" })
+            </div>
+        </div>
+
+        <input type="submit" value="Potvrď změny" class="taurus-logged-submit" />
+    }
+
+    var tempValueObject = TempData["RegistrationStatus"];
+
+    if (tempValueObject != null)
+    {
+        <div class="field-validation-error taurus-newlector-registrationstatus">
+            @tempValueObject
+        </div>
+    }
+}
+
+<script>
+    window.onload = GetEditData();
+</script>

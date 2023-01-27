@@ -1,0 +1,59 @@
+﻿@model TaurusEdeucation.Models.PaymentsModel
+@{
+    using (Html.BeginUmbracoForm("Payments", "PaymentsSurface"))
+    {
+        <div>
+            @Html.LabelFor(m => m.year, "Rok")
+            @Html.Label(Model.year.ToString(), new { id="year" })
+        </div>
+        <div>
+            @Html.LabelFor(m => m.month, "Měsíc")
+            @Html.Label(Model.month.ToString(), new { id="month" }) 
+        </div>
+        
+        for (int i = 0; i <31; i++)
+        {
+            <div>
+                @Html.LabelFor(m => m.pricesDays[i], (1 + i).ToString(), new { id="day"+(i) })            
+                @Html.Label(Model.pricesDays[i].ToString(), new { id="price"+(i) })            
+            </div>
+        }
+        
+        <input id="button" value="Uzavřít měsíc "+document.getElementById("month").textContent type="submit" class="taurus-logged-submit">
+    }
+}
+
+
+
+<script type = "text/javascript">
+    window.onload = function()
+    {
+        var year = document.getElementById("year").textContent;
+        var month = document.getElementById("month").textContent;
+        
+        var variables = "?year=" + year + "&month=" + month;
+        
+        $.ajax({
+            type: "POST",
+            url: "/umbraco/api/PaymentsApi/GetDaysInMonth" + variables,
+            success: function(response) {
+                for (var i = parseInt(response); i <= 31; i++)
+                {
+                    document.getElementById("day"+(i)).style = "display: none";
+                    document.getElementById("price"+(i)).style = "display: none";
+                }
+            }
+        });
+        
+        $.ajax({
+            type: "POST",
+            url: "/umbraco/api/PaymentsApi/GetDayInMonth",
+            success: function(response) {
+                if (parseInt(response) < 10)
+                {
+                    document.getElementById("button").disabled = true;
+                }
+            }
+        });
+    }
+</script>

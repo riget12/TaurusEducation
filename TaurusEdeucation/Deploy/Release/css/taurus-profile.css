@@ -1,0 +1,125 @@
+/*
+***registrovaný lektor přehled***
+*/
+
+.taurus-reglector-labelcontainer {
+    width: 100px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.taurus-reglector-student,
+.taurus-reglector-status {
+    margin-bottom: 10px;
+}
+
+.taurus-reglector-datum {
+    float: left;
+    margin: 10px 20px 30px 0;
+ }
+
+.taurus-reglector-overview-number {
+    text-align: Left;
+    width: 120px;
+    padding-left: 20px;
+}
+
+.taurus-reglector-containerline th {
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.taurus-reglector-containerline td {
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.taurus-reglector-overview {
+    clear: left;
+}
+
+.taurus-reglector-submit {
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.taurus-reglector-overview-tablenumber {
+    text-align: center;
+}
+
+.taurus-reglector-h3 {
+    margin-bottom: 20px;
+}
+
+.taurus-reglector-overview-updatestudent {
+    margin-top: 20px;
+}
+
+/* The switch - the box around the slider */
+.taurus-switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 20px;
+  margin-left: 10px;
+  top: 2px;
+  margin-bottom: 50px;
+}
+
+/* Hide default HTML checkbox */
+.taurus-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.taurus-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.taurus-slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.taurus-switch input:checked + .taurus-slider {
+  background-color: #2196F3;
+}
+
+.taurus-switch input:focus + .taurus-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.taurus-switch input:checked + .taurus-slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.taurus-slider.taurus-round {
+  border-radius: 34px;
+}
+
+.taurus-slider.taurus-round:before {
+  border-radius: 50%;
+}

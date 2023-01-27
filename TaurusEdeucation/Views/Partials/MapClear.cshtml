@@ -1,0 +1,20 @@
+﻿@model TaurusEdeucation.Models.MapModel
+
+<div class="taurus-newstudent-subtitle"> 
+    @if(Model.IsStudent)
+    {
+        <span>Vyberte místo, kde hledáte doučování.</span>
+    }
+    else 
+    {
+        <span>Vyberte místo, kde nabízíte doučování.</span>
+    }
+</div>
+<div class="taurus-czech-map-container">
+    <img id="taurus-czech-map" src="../media/s4emqbk1/cs_map.png" usemap="#image-map"/>
+    <div>
+        <input id="taurus-czech-map-selected" class="taurus-hidden" type="text"/>
+    </div>
+</div>
+<map id="image-map" name="image-map" data-student="@(Model.IsStudent ? true : false)">
+</map>

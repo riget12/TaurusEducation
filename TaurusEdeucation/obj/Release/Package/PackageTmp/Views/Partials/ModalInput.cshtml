@@ -1,0 +1,17 @@
+﻿<div id="myModalForm" class="taurus-newlector-modal">
+    <div class="taurus-availableLectors-modalContent">
+        <span class="close" id="closemyModalForm" onclick="closeModal()">&times;</span>
+        
+        <div class="taurus-availableLectors-modalForm-wrapper">
+            <input id="lectorId" type="text" value="" class="hidden" />
+            <label for="message">
+                Zpráva pro lektora:
+            </label>
+            <br >
+            <textarea id="message" rows="4" cols="100"></textarea>
+            <br >
+            <button onclick="sendMessageToLector()">Odeslat</button>
+        </div>
+    </div>
+        
+</div>

@@ -1,0 +1,27 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.FAQ>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+	Layout = "master_Taurus_Inner.cshtml";
+	var questions = Model.Questions.ToList();
+	var answers = Model.Answers.ToList();
+ }
+<div>
+    <div class="taurus-FAQ-title">
+        @Model.Name
+    </div>
+    @for(int i=0; i< questions.Count(); i++)
+    {
+        <div class="taurus-FAQ-container">
+            <span class="taurus-FAQ-questionnumber">
+                @(i+1).
+            </span>
+            <span class="taurus-FAQ-question">
+                @questions[i]
+            </span>
+            <br>
+            <span class="taurus-FAQ-answer">
+                @answers[i]
+            </span>
+        </div>
+    }
+</div>

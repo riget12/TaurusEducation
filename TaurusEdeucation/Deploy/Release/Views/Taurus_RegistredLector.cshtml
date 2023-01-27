@@ -1,0 +1,14 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Taurus_RegistredLector>
+
+@using ContentModels = Umbraco.Web.PublishedModels;
+@using TaurusEdeucation.Models;
+
+@{
+    Layout = "Taurus_RegisteredLector_Template.cshtml";
+}
+
+@Html.Partial("~/Views/Partials/Shared/ModalDialog.cshtml", new ModalDialogModel() { ModalDialogButtons = ModalDialogButtons.Ok, ButtonText = "Přečteno" })
+
+
+<script src="@Url.Content("~/Scripts/Taurus-profileinfo.js")"></script>
+<script src="@Url.Content("~/Scripts/Taurus-modal.js")"></script>

@@ -1,0 +1,17 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Taurus_RegisteredLector_Profile>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+	Layout = "Taurus_RegisteredLector_Template.cshtml";
+}
+
+<div class="taurus-logged-profile">
+    <label>Schovat profil</label>
+    <label class="taurus-switch">
+        <input type="checkbox" id="lector-hide">
+        <span class="taurus-slider taurus-round"></span>
+    </label>
+    
+    @Html.Action("MemberProfileGet", "MemberProfileSurface")
+
+    <input id="deleteLector" type="button" value="Smazat" />
+</div>

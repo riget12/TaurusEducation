@@ -1,0 +1,29 @@
+.taurus-FAQ-title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.taurus-FAQ-container {
+    border: 1px solid #F08080;
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.taurus-FAQ-questionnumber {
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.taurus-FAQ-question {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.taurus-FAQ-answer {
+    color: #F08080;
+    text-align: center;
+    margin-left: 50px;
+}

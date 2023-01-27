@@ -1,0 +1,24 @@
+.okresy-list {
+    list-style: none;
+}
+
+.okres {
+    display: inline-block;
+    border: #fff solid 1px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.okres:hover {
+    cursor: pointer;
+    border-color: #FFFF99;
+}
+
+.okresy-wrapper {
+    text-align: center;
+}
+
+.okres-active {
+    border-color: #FFFF99;
+}
+        

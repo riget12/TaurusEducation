@@ -1,0 +1,19 @@
+﻿@model TaurusEdeucation.Models.MemberLoginModel
+@if (User.Identity.IsAuthenticated)
+{
+    <p>Logged in: @User.Identity.Name</p>
+    <p>@Html.ActionLink("Odhlásit", "MemberLogout", "MemberLoginSurface")</p>
+}
+else
+{
+    <div class="taurus-login-title">
+        Přihlášení pro lektory 
+    </div>
+    using (Html.BeginUmbracoForm("MemberLogin", "MemberLoginSurface"))
+    {
+        @Html.EditorFor(x => Model)
+        <input type="submit" />
+    }
+    
+    <p>@TempData["Status"]</p>
+}   

@@ -1,0 +1,38 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Taurus_NewLector>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+    Layout = "master_Taurus_Inner.cshtml";
+}
+@section Scripts
+{
+    <script src="@Url.Content("~/Scripts/Taurus-map.js")"></script>
+    <script src="@Url.Content("~/Scripts/Taurus-memberRegister.js")"></script>
+    <script src="@Url.Content("~/Scripts/Taurus-modal.js")"></script>
+}
+
+<div class="taurus-main-title">
+    Nový lektor
+</div>
+<div class="taurus-mapClear-container">
+    @Html.Partial("MapClear", new TaurusEdeucation.Models.MapModel() { IsStudent = false })
+</div>
+
+<div class="taurus-mapClear-alternative">
+    <select id="mapClear-alternative-select" onchange="selectArea(this)">
+    </select>
+</div>
+
+<div id="Taurus-NewLectorForm" class="taurus-hidden">
+    <div id="okresy-wrapper" class="okresy-wrapper mb-4">
+        <h2 class="taurus-main-subttitle mb-4 mt-4">Okres</h2>
+        <div id="okresy-content"></div>
+    </div>
+
+    <div class="taurus-main-subttitle">
+        Chceš se stát lektorem? Vyplň následující údaje a odešli.
+    </div>
+
+    <div class="taurus-main-inner-container">
+        @Html.Partial("MemberRegister", new TaurusEdeucation.Models.MemberRegisterModel())
+    </div>
+</div>

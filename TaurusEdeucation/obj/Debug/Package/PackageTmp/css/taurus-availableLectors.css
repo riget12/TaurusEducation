@@ -1,0 +1,205 @@
+.taurus-displayLector-ProfileContainer, 
+.taurus-availableLectors-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.taurus-displayLector-ProfileWrapper
+.taurus-availableLectors-wrapper {
+    flex: 0;
+    flex-basis: max-content;
+    flex-grow: inherit;
+    overflow: hidden;
+}
+
+.lector-show {
+    opacity: 0;
+}
+
+.animated {
+    animation: appear 500ms ease-in;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        flex: 0;
+    }
+    100% {
+        flex-basis: auto;
+        flex-grow: 1;
+        opacity: 1;
+        flex: 1;
+    }
+}
+
+.taurus-availableLectors-title {
+    margin-top: 50px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.taurus-displayLector-container {
+    border-bottom: solid white 1px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.taurus-availableLectors-wrapper div:first-child {
+    margin-top: 50px;
+}
+
+.taurus-availableLectors-wrapper div:last-child {
+    border-bottom: none;
+}
+
+.taurus-displayLector-Profile-span, 
+.taurus-displayLector-span {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.taurus-displayLector-name {
+    padding-left: 12px;
+}
+
+.taurus-displayLector-workPlace {
+    padding-left: 12px;
+}
+
+.taurus-displayLector-ProfileContainer {
+    padding-left: 20px;
+}
+
+.taurus-displayLector-ProfileContainer div:first-child {
+    margin-top: 30px;
+}
+
+.taurus-displayLector-Profile-FirstName {
+    padding-left: 12px;
+}
+
+.taurus-displayLector-Profile-LastName {
+    padding-left: 12px;
+}
+
+.taurus-displayLector-Profile-workPlace {
+    padding-left: 12px;
+}
+
+.taurus-displayLector-button {
+    width: 100%;
+    margin-top: 7px;
+}
+
+.taurus-availableLectors-modalContent {
+    background-color: #640d0d;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 300px;
+    overflow: auto;
+}
+
+.taurus-availableLectors-modalForm-wrapper {
+    margin-top: 20px;
+}
+
+.taurus-availableLectors-modalForm-wrapper label {
+    margin-bottom: 20px;
+}
+
+.taurus-availableLectors-modalForm-wrapper textarea {
+    resize: both;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.taurus-displayLector-noneLectors {
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    background: #ffe6e6;
+    color: black;
+}
+
+.taurus-displayLector-profilePicture {
+    float: right;
+}
+
+@media (min-width: 576px) {
+    .taurus-displayLector-noneLectors {
+        display: block;
+        width: 200px;
+        margin: 30px auto;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 576px) {
+    .taurus-displayLector-button {
+        width: 180px;
+        margin-top: 15px;
+    }
+    
+    .taurus-displayLector-morebuttons {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 180px;
+    }
+}
+
+@media (min-width: 768px) {
+    .taurus-availableLectors-title {
+        text-align: left;
+    }
+    
+    .taurus-displayLector-button {
+        width: 180px;
+        margin-top: 15px;
+    }
+    .taurus-displayLector-container {
+        width: 80%;    
+    }
+    
+    .taurus-displayLector-morebuttons {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 180px;
+    }
+    
+    .taurus-displayLector-noneLectors {
+        display: block;
+        width: 200px;
+        margin-top: 30px;    
+        margin-left: 20%;
+        margin-right: 0;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 960px) {
+    .taurus-displayLector-noneLectors {
+        margin-left: 30%;
+    }
+}
+
+
+@media (min-width: 1140px) {
+    .taurus-displayLector-noneLectors {
+        margin-left: 20%;
+    } 
+}
+
+@media (min-width: 1367px) {
+    .taurus-displayLector-noneLectors {
+        margin-left: 13%;
+    }
+}

@@ -1,0 +1,75 @@
+﻿@inherits UmbracoViewPage
+@using ContentModels = Umbraco.Web.PublishedModels;
+@using Umbraco.Core.Security;
+@{
+	Layout = "master_Taurus_Inner.cshtml";
+}
+@{ 
+    if (!Members.GetCurrentLoginStatus().IsLoggedIn )
+    {
+        Response.Redirect("/login");
+    }
+    
+}
+<div id="nav-TaurusRegisteredLector" class="taurus-logged-navigation-container">
+    <ul class="taurus-logged-navigation">
+        @{
+        var rootPage = Umbraco.ContentAtRoot().FirstOrDefault()
+                       .ChildrenOfType("taurus_RegistredLector")
+                       .Where(x => (x.Name == "RegisteredLector"))
+                       .Where(x => x.IsVisible()).First();
+        
+        var page = rootPage
+                       .ChildrenOfType("Taurus_RegisteredLector_OverView")
+                       .Where(x => (x.Name == "OverView"))
+                       .Where(x => x.IsVisible()).First();
+        <li>
+            <a href="@page.Url" class="taurus-logged-navlink">
+                <span class="taurus-logged-navigation-normal">@page.Value("previewName")</span>
+                <span class="taurus-logged-navigation-bold">@page.Value("previewName")</span>
+            </a>
+        </li>
+        
+        page = rootPage
+                   .ChildrenOfType("Taurus_RegisteredLector_Payments")
+                   .Where(x => (x.Name == "Payments"))
+                   .Where(x => x.IsVisible()).First();
+        <li>
+            <a href="@page.Url" class="taurus-logged-navlink">
+                <span class="taurus-logged-navigation-normal">@page.Value("previewName")</span>
+                <span class="taurus-logged-navigation-bold">@page.Value("previewName")</span>
+            </a>
+        </li>               
+           
+        page = rootPage
+                   .ChildrenOfType("Taurus_RegisteredLector_Profile")
+                   .Where(x => (x.Name == "Profile"))
+                   .Where(x => x.IsVisible()).First();
+        <li>
+            <a href="@page.Url" class="taurus-logged-navlink">
+                <span class="taurus-logged-navigation-normal">@page.Value("previewName")</span>
+                <span class="taurus-logged-navigation-bold">@page.Value("previewName")</span>
+            </a>
+        </li>
+        
+        page = rootPage
+                   .ChildrenOfType("Taurus_RegisteredLector_Terms")
+                   .Where(x => (x.Name == "Terms"))
+                   .Where(x => x.IsVisible()).First();
+        <li>
+            <a href="@page.Url" class="taurus-logged-navlink">
+                <span class="taurus-logged-navigation-normal">@page.Value("previewName")</span>
+                <span class="taurus-logged-navigation-bold">@page.Value("previewName")</span>
+            </a>
+        </li>
+        }
+    </ul>
+</div>
+
+<div class="taurus-logged-info">
+    @Html.Action("MemberLogin","MemberLoginSurface")    
+</div>
+
+<div>
+    @RenderBody()
+</div>

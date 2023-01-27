@@ -1,0 +1,56 @@
+﻿<div id="myModalMap" class="taurus-newlector-modal">
+    <div class="taurus-newlector-modal-content">
+        <span class="close" id="closemyModalMap" onclick="closeModal()">&times;</span>
+        <div class="taurus-map-subtitle"> 
+            Vyberte místo, kde chcete doučovat.
+        </div>
+        <div class="taurus-czech-map-container">
+            <img id="taurus-czech-map" src="../media/s4emqbk1/cs_map.png" usemap="#image-map"/>
+            <div>
+                <input id="taurus-czech-map-selected" class="taurus-hidden" type="text"/>
+            </div>
+        </div>
+        <div class="taurus-mapClear-alternative">
+            <select onchange="selectNewLectorRegion(this)">
+                <option value="praha">Kraj Praha</option>
+                <option value="stredocesky">Středočeský kraj</option>
+                <option value="jihocesky">Jihočeský kraj</option>
+                <option value="plzensky">Plzeńský kraj</option>
+                <option value="karlovarsky">Karlovarský kraj</option>
+                <option value="ustecky">Ústecký kraj</option>
+                <option value="liberecky">Liberecký kraj</option>
+                <option value="kralovehradecky">Kralovehradecký kraj</option>
+                <option value="pardubicky">Pardubický kraj</option>
+                <option value="vysocina">Kraj Vysočina</option>
+                <option value="jihomoravsky">Jihomoravský kraj</option>
+                <option value="olomoucky">Olomoucký kraj</option>
+                <option value="moravskoslezsky">Moravskoslezský kraj</option>
+                <option value="zlinsky">Zlínský kraj</option>
+            </select>
+        </div>
+        <map id="image-map" name="image-map">
+            <area onmouseover="changeMapSrc('plzensky')" onclick="setMapSrc(event, 'plzensky', true)" onmouseout="leaveMapSrc()" id="plzensky" title="Plzeňský kraj" href="" coords="45,181,57,179,67,176,77,177,85,178,88,170,95,167,101,162,115,167,119,160,122,151,130,152,136,155,134,162,145,162,152,168,161,167,168,175,177,179,178,189,173,201,174,207,171,212,161,218,164,222,163,229,169,230,167,240,169,246,171,256,173,270,164,278,163,287,163,295,160,302,151,303,150,311,152,317,147,322,143,330,140,335,129,328,130,318,117,307,106,303,108,297,99,292,92,283,93,277,77,270,67,270,63,260,56,255,53,240,48,240,43,226,41,215,30,205,37,197,41,188" shape="poly">
+            <area onmouseover="changeMapSrc('jihocesky')" onclick="setMapSrc(event, 'jihocesky', true)" onmouseout="leaveMapSrc()" id="jihocesky" title="Jihočeský kraj" href="" coords="169,245,177,246,187,248,202,238,207,244,216,243,223,238,229,244,237,241,256,243,262,246,271,240,276,230,282,236,292,241,292,252,287,267,291,276,298,283,309,286,315,293,327,293,335,295,334,302,344,308,357,307,362,314,356,318,350,328,360,335,355,343,344,337,336,330,328,330,327,337,315,337,315,329,305,328,297,327,297,353,293,362,298,367,278,362,277,373,270,378,266,394,257,389,252,394,241,384,239,394,229,398,203,393,195,387,200,380,193,374,184,373,178,363,171,364,173,356,166,347,158,347,153,336,145,332,148,320,153,318,151,311,151,304,161,302,166,299,163,294,164,278,173,269" shape="poly">
+            <area onmouseover="changeMapSrc('jihomoravsky')" onclick="setMapSrc(event, 'jihomoravsky', true)" onmouseout="leaveMapSrc()" id="jihomoravsky" title="Jihomoravský kraj" href="" coords="356,342,362,335,367,338,373,333,377,336,383,328,391,326,398,318,403,323,411,320,418,321,418,316,428,315,430,305,428,301,435,297,428,292,435,286,428,283,435,276,443,270,442,258,445,252,442,250,448,243,443,241,448,233,459,233,461,226,471,228,486,234,481,237,482,239,489,242,485,253,490,258,485,260,492,265,498,257,492,249,498,247,510,262,514,262,512,270,523,274,526,281,522,288,523,296,529,296,528,302,521,312,532,311,532,318,538,321,545,323,547,328,554,331,561,330,568,335,573,338,575,346,566,353,558,349,550,354,529,343,521,352,518,358,503,385,500,370,485,372,482,366,476,369,474,361,463,357,459,359,451,358,445,373,434,367,416,369,399,358,390,348,381,348,378,354,370,352" shape="poly">
+            <area onmouseover="changeMapSrc('zlinsky')" onclick="setMapSrc(event, 'zlinsky', true)" onmouseout="leaveMapSrc()" id="zlinsky" title="Zlínský kraj" href="" coords="576,344,573,336,566,335,563,328,554,331,550,328,547,328,545,323,537,321,532,319,531,310,521,313,529,302,529,297,522,297,522,288,526,282,528,279,537,278,543,269,544,261,547,261,549,266,554,264,559,267,560,261,568,258,570,259,574,257,571,251,578,250,583,255,589,251,589,245,595,240,600,241,602,237,610,238,610,242,616,241,627,240,631,243,636,245,641,242,643,248,649,251,654,257,652,267,637,273,626,282,628,287,625,298,623,309,615,318,605,318,601,333,591,334,584,345" shape="poly">
+            <area onmouseover="changeMapSrc('moravskoslezsky')" onclick="setMapSrc(event, 'moravskoslezsky', true)" onmouseout="leaveMapSrc()" id="moravskoslezsky" title="Moravskoslezský kraj" href="" coords="655,257,644,249,642,241,638,246,628,239,612,242,612,237,603,236,584,218,579,218,580,208,570,205,561,203,561,208,554,203,551,205,544,197,539,199,529,195,530,189,525,190,520,187,528,174,522,172,524,164,529,158,529,151,532,148,530,145,535,138,543,136,545,132,548,135,550,126,564,121,570,124,575,114,582,117,577,124,584,127,584,132,564,142,573,150,578,148,585,160,592,166,599,167,610,160,608,152,618,158,623,165,631,161,636,167,638,175,643,170,649,170,658,176,662,176,663,170,668,175,665,187,670,181,673,199,675,207,683,204,684,210,691,210,699,230,688,241,680,236,673,240,667,243" shape="poly">
+            <area onmouseover="changeMapSrc('olomoucky')" onclick="setMapSrc(event, 'olomoucky', true)" onmouseout="leaveMapSrc()" id="olomoucky" title="Olomoucký kraj" href="" coords="547,125,547,135,546,133,527,143,530,145,525,148,528,159,520,166,520,172,528,174,518,183,523,191,528,188,528,195,537,200,544,198,551,207,554,200,561,210,561,205,566,208,570,207,580,207,576,219,583,219,600,236,599,239,594,239,588,244,588,251,585,256,578,249,570,251,573,258,559,260,559,267,552,261,551,265,547,258,537,277,527,279,522,272,513,270,516,260,508,260,499,248,491,248,496,256,492,267,487,260,489,253,487,249,491,243,482,239,487,224,491,217,486,210,480,202,480,193,482,190,477,169,480,169,492,137,504,130,506,121,498,118,491,104,494,97,523,108" shape="poly">
+            <area onmouseover="changeMapSrc('pardubicky')"  onclick="setMapSrc(event, 'pardubicky', true)" onmouseout="leaveMapSrc()" id="pardubicky" title="Pardubický kraj" href="" coords="462,144,470,150,489,135,480,169,474,164,480,188,479,202,489,217,484,231,470,224,460,224,460,231,448,231,443,234,439,227,432,227,427,219,413,217,401,210,388,214,388,209,379,207,379,202,367,198,352,193,355,174,340,164,343,152,352,150,355,145,371,147,377,140,383,142,383,145,393,142,403,147,405,150,425,162,436,161,439,152,451,142" shape="poly">
+            <area onmouseover="changeMapSrc('kralovehradecky')" onclick="setMapSrc(event, 'kralovehradecky', true)" onmouseout="leaveMapSrc()" id="kralovehradecky" title="Královehradecký kraj" href="" coords="462,142,451,142,438,152,436,159,424,161,405,150,403,144,393,140,383,142,379,138,371,147,353,145,347,150,336,145,336,142,340,138,340,132,338,123,336,121,323,123,319,114,314,114,311,109,316,101,314,87,323,90,328,85,340,92,345,90,347,87,348,82,353,85,364,85,353,46,371,51,383,49,386,61,396,58,401,66,398,72,403,73,412,63,420,68,425,61,434,63,446,73,441,84,422,96,429,108,438,108,441,116,446,114,456,130" shape="poly">
+            <area onmouseover="changeMapSrc('vysocina')" onclick="setMapSrc(event, 'vysocina', true)" onmouseout="leaveMapSrc()" id="vysocina" title="Kraj Vysočina" href="" coords="350,192,379,202,377,207,388,210,396,219,401,210,415,219,427,219,431,227,439,227,443,239,446,243,441,246,441,269,427,281,434,286,425,289,434,294,427,299,431,306,425,313,417,315,419,320,408,318,405,320,398,317,391,325,383,325,377,334,371,330,367,335,350,327,355,317,364,313,357,305,345,308,335,301,335,293,321,289,316,293,309,284,300,282,287,267,292,253,293,241,299,231,317,234,324,227,317,221,324,207,336,205" shape="poly">
+            <area onmouseover="changeMapSrc('stredocesky')" onclick="setMapSrc(event, 'stredocesky', true)" onmouseout="leaveMapSrc()" id="stredocesky" title="Středočeský kraj" href="" coords="263,169,292,241,276,229,263,245,242,241,232,243,223,236,209,243,202,236,187,245,170,245,166,239,172,229,165,226,165,217,173,210,180,188,178,178,170,173,163,166,153,168,148,161,136,161,137,150,142,149,144,140,154,138,163,132,173,132,178,126,182,128,196,118,199,113,209,116,223,116,233,113,235,101,240,102,245,96,247,89,256,89,257,92,266,92,275,85,275,82,281,84,290,75,292,72,304,77,312,85,314,101,311,108,312,114,317,116,323,121,336,123,340,137,335,145,343,150,340,162,352,174,350,192,336,205,323,205,317,219,323,226,316,231,299,229,290,239,263,168,263,159,269,156,263,149,259,149,250,140,231,145,230,152,220,152,232,176,240,176,249,169" shape="poly">
+            <area onmouseover="changeMapSrc('liberecky')" onclick="setMapSrc(event, 'liberecky', true)" onmouseout="leaveMapSrc()" id="liberecky" title="Liberecký kraj" href="" coords="261,30,254,42,244,39,233,63,245,89,256,87,257,90,266,90,275,85,273,80,281,80,293,70,314,87,323,89,328,84,340,92,348,82,362,84,357,75,360,72,352,46,343,41,338,44,336,36,328,30,324,20,329,17,321,10,311,8,302,5,297,12,302,15,300,29,283,30,280,37" shape="poly">
+            <area onmouseover="changeMapSrc('ustecky')" onclick="setMapSrc(event, 'ustecky', true)" onmouseout="leaveMapSrc()" id="ustecky" title="Ústecký kraj" href="" coords="263,29,268,22,266,20,258,22,259,13,246,3,232,1,227,10,239,18,240,24,204,39,198,37,189,44,189,49,153,56,144,72,136,63,129,73,126,72,117,84,100,84,91,99,107,106,108,109,117,109,120,114,119,126,124,144,120,145,126,150,136,152,143,149,146,140,151,135,155,138,165,130,175,130,184,126,196,118,198,114,201,111,206,114,223,116,233,111,235,99,240,101,242,97,245,94,232,63,244,37,254,41" shape="poly">
+            <area onmouseover="changeMapSrc('karlovarsky')" onclick="setMapSrc(event, 'karlovarsky', true)" onmouseout="leaveMapSrc()" id="karlovarsky" title="Karlovarský kraj" href="" coords="2,111,2,123,14,135,10,144,38,166,39,173,48,180,72,174,86,176,86,168,101,161,115,164,122,149,118,145,122,142,117,125,118,114,115,109,105,109,91,99,77,94,65,101,46,101,34,113,22,135,15,120" shape="poly">
+            <area onmouseover="changeMapSrc('praha')" onclick="setMapSrc(event, 'praha', true)" onmouseout="leaveMapSrc()" id="praha" title="Praha" href="" coords="220,152,230,174,238,176,249,169,261,168,261,159,268,156,261,149,257,149,250,140,232,145,232,152" shape="poly">
+        </map>   
+        
+        <div id="taurus-map-additionalplace-container">
+            <span>Vyplňte prosím dodatečné umístění</span>
+            <input id ="taurus-map-additionalplace" type="text"/>
+            
+            <input type="button" value="Odeslat" onclick="sendLectorWorkPlace()">
+        </div>
+    </div>
+        
+</div>

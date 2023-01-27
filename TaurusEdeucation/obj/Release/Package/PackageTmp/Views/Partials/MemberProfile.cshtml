@@ -1,0 +1,124 @@
+﻿@model TaurusEdeucation.Models.MemberProfileModel
+@{
+    using (Html.BeginUmbracoForm("MemberProfilePost", "MemberProfileSurface"))
+    {
+        <table>
+            <tr>
+                <td>
+                    @Html.TextBoxFor(m => m.id, new {id = "lectorId", @class = "hidden"})
+                </td>
+            </tr>
+            <tr>
+                <td class="taurus-logged-labelcontainer">
+                    @Html.LabelFor(m => m.firstName, "Jméno:")
+                </td>
+                <td class="taurus-logged-labelcontainer">
+                    @Html.LabelFor(m => m.firstName, Model.firstName)
+                </td>
+            </tr>
+            <tr>
+                <td class="taurus-logged-labelcontainer">
+                    @Html.LabelFor(m => m.surName, "Příjmení:")
+                </td>
+                <td class="taurus-logged-labelcontainer">
+                    @Html.LabelFor(m => m.surName, Model.surName)
+                </td>
+            </tr>
+            <tr>
+                <td class="taurus-logged-labelcontainer">
+                    @Html.LabelFor(m => m.street, "Ulice:")
+                </td>
+                <td class="taurus-logged-labelcontainer">
+                    @Html.LabelFor(m => m.street, Model.street)
+                </td>
+            </tr>
+            <tr>
+                <td class="taurus-logged-labelcontainer">
+                    @Html.LabelFor(m => m.city, "Město:")
+                </td>
+                <td class="taurus-logged-labelcontainer">
+                    @Html.LabelFor(m => m.city, Model.city)
+                </td>
+            </tr>
+            <tr>
+                <td class="taurus-logged-labelcontainer">
+                    @Html.LabelFor(m => m.phone, "Telefon:")
+                </td>
+                <td class="taurus-logged-labelcontainer">
+                    @Html.LabelFor(m => m.phone, Model.phone)
+                </td>
+            </tr>
+            <tr>
+                <td class="taurus-logged-labelcontainer">
+                    @Html.LabelFor(m => m.email, "E-mail:")
+                </td>
+                <td class="taurus-logged-labelcontainer">
+                    @Html.LabelFor(m => m.email, Model.email)
+                </td>
+            </tr>
+            <tr>
+                <td class="taurus-logged-labelcontainer">
+                    @Html.LabelFor(m => m.resume, "Životopis:")
+                </td>
+                <td>
+                    @Html.LabelFor(m => m.resume, Model.resume)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.levels, "Úrovně školení:")
+                    <div>
+                        <ul class="taurus-logged-levellist">
+                            @{
+                                if (Model.levels.elementarySchool)
+                                {
+                                    <li>
+                                        @Html.LabelFor(m => m.levels.elementarySchool, "Základní škola")
+                                    </li>
+                                }
+                                if (Model.levels.highSchool)
+                                {
+                                    <li>
+                                        @Html.LabelFor(m => m.levels.highSchool, "Střední škola")
+                                    </li>
+                                }
+                                if (Model.levels.college)
+                                {
+                                    <li>
+                                        @Html.LabelFor(m => m.levels.college, "Vysoká škola")
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.lessons, "Předměty:")  
+                    <div id="lessons">
+                        <ul class="taurus-logged-lessonslist">
+                            @{
+                                for (int i = 0; i < Model.lessons.Length; i++){
+                                    if (Model.lessons[i] != "Vyber"){
+                                        <li>
+                                            @Html.LabelFor(m => m.lessons[i], Model.lessons[i])
+                                        </li>
+                                    }
+                                }
+                            }
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <div>
+            <div>
+                Profilový obrázek
+            </div>
+            <img id="thumbnailImage" src="" />
+        </div>
+        <input type="submit" value="Edit" class="taurus-logged-submit">
+    }
+}

@@ -1,0 +1,34 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+
+@model TaurusEdeucation.Models.Student.LectorListModel
+
+<div class="taurus-availableLectors-wrapper">
+    <div class="d-none taurus-displayLector-noneLectors">
+        Ve vámi vybrané oblasti nejsou žádní lektoři
+    </div>
+
+    <div class="taurus-displayLector-container">
+        <span class="taurus-displayLector-span">Jméno: </span>
+
+        <div class="taurus-displayLector-name">
+
+        </div>
+
+        <span class="taurus-displayLector-span">Místo doučování: </span>
+        <span>Kraj: </span>
+        <span>Okresy: </span>
+        <span>Úroveň doučování: </span>
+        <span>Předměty</span>
+        <div id="picture">
+
+        </div>
+
+        <div class="taurus-displayLector-morebuttons">
+            <input type="button" class="taurus-displayLector-button" id="taurus-contactLector-button-" value="Kontaktovat" />
+            <input type="button" class="taurus-displayLector-button" id="taurus-displaylector-button-" value="Zobrazit profil" />
+        </div>
+        <div class="taurus-displayLector-ProfileContainer" id="taurus-displayLector-ProfileContainer-">
+
+        </div>
+    </div>
+</div>

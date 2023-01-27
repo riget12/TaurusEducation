@@ -1,0 +1,25 @@
+﻿<script src="/Umbraco/js/taurus-backoffice.js"></script>
+
+  <div>
+    <h2 style="font-size: 22px; font-weight: bold">Zabanovat lektora</h2>
+
+    <label for="ban-lector" style="margin-right: 20px">Email lektora:</label>
+    <input id="ban-lector" type="text" style="margin-right: 20px" />
+    <input type="button" onclick="banLector()" value="Zabanovat" style="margin-bottom: 10px" />
+  </div>
+
+  <div>
+    <h2 style="font-size: 22px; font-weight: bold">Odbanovat lektora</h2>
+
+    <label for="unban-lector" style="margin-right: 20px">Email lektora:</label>
+    <input type="text" id="unban-lector" style="margin-right: 20px" />
+    <input type="button" onclick="unbanLector()" value="Odbanovat" style="margin-bottom: 10px" />
+  </div>
+
+  <div>
+    <h2 style="font-size: 22px; font-weight: bold">Smazat lektora</h2>
+
+    <label for="delete-lector" style="margin-right: 20px">Odstranit lektora:</label>
+    <input type="text" id="delete-lector" style="margin-right: 20px" />
+    <input type="button" onclick="deleteLector()" value="Odstranit" style="margin-bottom: 10px" />
+  </div>
